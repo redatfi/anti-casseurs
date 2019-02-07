@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(rgba(52,54,58,0.7),rgba(52,54,58,0.7)), url('background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.header p {
+  margin: 0 auto;
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+.header .desc {
+  font-size: 20px;
+}
+
+.header .icon {
+
+}
+
+.table {
+  margin: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #a8c9ff;}
